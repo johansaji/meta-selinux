@@ -70,7 +70,6 @@ RDEPENDS_${BPN}-runinit += "libselinux"
 RDEPENDS_${BPN}-sandbox += "\
 	python-math \
 	python-shell \
-	python-subprocess \
 	python-textutils \
 	python-unixadmin \
 	libselinux-python \
@@ -81,7 +80,6 @@ RDEPENDS_${BPN}-semanage = "\
 	python-core \
 	python-ipy \
 	python-compression \
-	python-xml \
 	${BPN}-python \
 	libselinux-python \
 "
